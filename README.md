@@ -1278,9 +1278,11 @@ APP 示例：Android 开机的图案密码解锁，支付宝的密码解锁
 Demo 地址：https://github.com/Trinea/TrineaDownload/blob/master/range-bar-demo.apk?raw=true  
 效果图：![Renderings](http://i.imgur.com/q85GhRjl.png)  
 
-1. ChromeView  
-利用 Chromium 实现的 WebView，解决各个 Android 版本 WebView 不同的问题，同时利用最新 Chrome 代码  
-项目地址：https://github.com/pwnall/chromeview  
+1. Crosswalk webview (替代ChromeView)  
+利用 Chromium 实现的 WebView，解决各个 Android 版本 WebView 不同的问题，同时利用最新 Chrome 代码，原项目ChromeView早已经不再维护
+项目地址：https://crosswalk-project.org  
+或 https://github.com/welnstar/crosswalk-cordova-android
+原ChromeView项目地址：https://github.com/pwnall/chromeview  
 
 1. android-phased-seek-bar  
 支持预先定义状态的 SeekBar  
